@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 3</title>
+</head>
+<style>
+    body{
+        color: black;
+        border: 2px solid lightgreen;
+        margin: 10px;
+    }
+    .container {
+        margin: 20px;
+    }
+    header {
+        width: 100%;
+        height: 150px;
+    }
+    main div{
+        height: 400px;
+    }
+    footer {
+        height: 100px;
+    }
+    .make-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header, footer, main div, main aside {
+        background: #eae5e5;
+        border: 2px solid lightgreen;
+        border-radius: 20px;
+    }
+    main aside { 
+        margin-right: 15px;
+    }
+
+    header, footer, main {
+        margin: 15px 0px;
+    }
+    .left-nav {
+        width: 25%;
+    }
+    .main {
+        width: 75%;
+    }
+    .d-flex{
+        display: flex;
+    }
+</style>
+<body>
+    <section class="container">
+        <header class="make-center">
+            Page Head Section
+        </header>
+        <main class="d-flex">
+            <aside class="left-nav make-center">
+                Left Navigation
+            </aside>
+            <div class="main make-center">
+                Main Content
+            </div>
+        </main>
+        <footer class="make-center">
+            Footer Section
+        </footer>
+    </section>
+</body>
+</html>

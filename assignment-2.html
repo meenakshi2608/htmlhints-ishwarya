@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 2</title>
+</head>
+<style>
+    body {
+        border: 5px solid black;
+        margin: 10px;
+        font-size: 20px;
+    }
+    header,footer {
+        height: 200px;
+        color: black;
+    }
+    section {
+        height: 500px;
+        background: white;
+        color: black;
+    }
+    header {
+        background: pink;
+    }
+    footer {
+        background: violet;
+    }
+    .make-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .main {
+        width: 70%;
+        height: 100%;
+    }
+    .right-panel {
+        width: 30%;
+        background: palevioletred;
+        height: 100%;
+        color: black;
+    }
+</style>
+<body>
+    <!-- header -->
+    <header class="make-center">
+        Header
+    </header>
+    <!-- Main Content -->
+    <section class="d-flex">
+        <div class="main make-center">
+                Main Content
+        </div>
+        <div class="right-panel make-center">
+            Right Panel
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="make-center">
+        Footer
+    </footer>
+</body>
+</html>
